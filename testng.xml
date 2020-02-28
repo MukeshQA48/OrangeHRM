@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Suite">
+<listeners>
+<listener class-name="com.org.TestUtil.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+        <class name="com.org.TestCases.LoginPageTest"/> 
+        <class name="com.org.TestCases.DashBoardPageTest"/>
+       <class name="com.org.TestCases.SystemusersTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

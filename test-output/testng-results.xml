@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Suite" duration-ms="107975" started-at="2020-02-28T04:28:56Z" finished-at="2020-02-28T04:30:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="107975" started-at="2020-02-28T04:28:56Z" finished-at="2020-02-28T04:30:44Z">
+      <class name="com.org.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestCases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="14749" started-at="2020-02-28T04:30:28Z" finished-at="2020-02-28T04:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogo()[pri:1, instance:com.org.TestCases.LoginPageTest@754ba872]" name="testLogo" duration-ms="128" started-at="2020-02-28T04:30:43Z" finished-at="2020-02-28T04:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.TestCases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="934" started-at="2020-02-28T04:30:43Z" finished-at="2020-02-28T04:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.TestCases.LoginPageTest -->
+      <class name="com.org.TestCases.SystemusersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="20063" started-at="2020-02-28T04:28:58Z" finished-at="2020-02-28T04:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="enterDetails" duration-ms="1882" started-at="2020-02-28T04:29:18Z" data-provider="usersData" finished-at="2020-02-28T04:29:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[david]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[david123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[david123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="18574" started-at="2020-02-28T04:29:20Z" finished-at="2020-02-28T04:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="enterDetails" duration-ms="1852" started-at="2020-02-28T04:29:38Z" data-provider="usersData" finished-at="2020-02-28T04:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rama]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rama]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rama123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rama123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="21255" started-at="2020-02-28T04:29:40Z" finished-at="2020-02-28T04:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="enterDetails" duration-ms="2132" started-at="2020-02-28T04:30:01Z" data-provider="usersData" finished-at="2020-02-28T04:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[krishna]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[krishna123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[krishna123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="22228" started-at="2020-02-28T04:30:03Z" finished-at="2020-02-28T04:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SystemusersTest@4dfa3a9d]" name="enterDetails" duration-ms="2316" started-at="2020-02-28T04:30:26Z" data-provider="usersData" finished-at="2020-02-28T04:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parasurama]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[parasurama]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[parasu123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[parasu123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+      </class> <!-- com.org.TestCases.SystemusersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>
